@@ -17,7 +17,7 @@ public class Main {
         scanner.nextLine();
         System.out.print("Укажите адрес доставки: ");
         String address = scanner.nextLine();
-        System.out.printf("Товар: %s, в количестве: %d, прибудет к вам в ближайшее время. Товар доставим по адресу: %s \n", name, quantity, address);
+        System.out.printf("Товар: %s, в количестве: %d, прибудет к вам в ближайшее время. Товар доставим по адресу: %s. Ваш контактный номер телефона: %d \n", name, quantity, address, number);
         scanner.close();
     }
 }
